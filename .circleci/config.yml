@@ -253,7 +253,6 @@ jobs:
           name: Run deposit contract test with web3.py
           command: make test_deposit_contract_web3_tests
 workflows:
-  version: 2.1
   test_spec:
     jobs:
       - checkout_specs
